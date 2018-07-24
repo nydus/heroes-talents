@@ -1,0 +1,41 @@
+{
+  "name": "heroes-talents",
+  "version": "1.0.0",
+  "description": "NodeJS wrapper module to download heroespatchnotes/heroes-talents",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nydus/heroes-talents.git"
+  },
+  "scripts": {
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags",
+    "test": "echo \"Warning: no 'test' script specified\" && exit 0",
+    "postinstall": "node postinstall.js"
+  },
+  "keywords": [
+    "hots",
+    "blizzard",
+    "stormreplay",
+    "mpq"
+  ],
+  "author": "Evan Shimizu <falindrith@gmail.com>",
+  "contributors": [
+    {
+      "name": "Justin J. Novack",
+      "email": "jnovack@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nydus/heroes-talents/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/nydus/heroes-talents#readme",
+  "dependencies": {
+    "download-github-repo": "^0.1.4",
+    "fs-extra": "^7.0.0"
+  }
+}
