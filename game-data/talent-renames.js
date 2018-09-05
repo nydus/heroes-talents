@@ -36,7 +36,29 @@ const TalentRenames = {
   JunkratSpreadVolley: 'JunkratFragLauncherSpreadVolley',
   "Kael'thasLivingBombIgnite": 'KaelthasLivingBombIgnite',   // lol
   AnubarakHeroicAbilityCarrionSwarm: 'AnubarakLocustSwarm',
-  AnubarakMasteryHiveMasterCarrionSwarm: 'AnubarakLocustSwarmHiveMaster'
+  AnubarakMasteryHiveMasterCarrionSwarm: 'AnubarakLocustSwarmHiveMaster',
+  KerriganMasteryRavageSiphoningImpact: 'KerriganSiphoningImpactRavage',                  // 2.36.0
+  KerriganMasteryImpalingBladesSharpenedBlades: 'KerriganSharpenedBladesImpalingBlades',
+  KerriganMasteryRavageCleanKill: 'KerriganCleanKillRavage',
+  KerriganMasteryPrimalGraspPsionicPulse: 'KerriganPsionicPulsePrimalGrasp',
+  KerriganMasteryImpalingBladesBladeTorrent: 'KerriganBladeTorrentImpalingBlades',
+  BattleMomentumKerrigan: 'KerriganBladedMomentum',
+  KerriganMasteryEviscerate: 'KerriganEviscerate',
+  KerriganMasteryAggressiveDefense: 'KerriganAggressiveDefense',
+  KerriganMasteryMaelstromOmegastorm: 'KerriganOmegastormMaelstrom',
+  KerriganMasteryTorrasqueSummonUltralisk: 'KerriganTorrasqueSummonUltralisk',
+  StitchesMasteryChewYourFood: 'StitchesChewYourFood',     // 2.37.0
+  StitchesMasteryHeavySlam: 'StitchesHeavySlam',
+  StitchesMasteryPutridGroundSlam: 'StitchesPutridGroundSlam',
+  StitchesMasterySavorTheFlavorDevour: 'StitchesSavortheFlavorDevour',
+  StitchesMasteryLastBiteDevour: 'StitchesLastBiteDevour',
+  StitchesMasteryMegaSmashSlam: 'StitchesMegaSmashSlam',
+  StitchesMasteryIndigestionDevour: 'StitchesIndigestionDevour',
+  StitchesMasteryPulverizeSlam: 'StitchesPulverizeSlam',
+  StitchesMasteryFishingHook: 'StitchesFishingHook',
+  StitchesMasteryShishKabobHook: 'StitchesShishKabobHook',
+  StitchesMasteryHungryHungryStitchesGorge: 'StitchesHungryHungryStitchesGorge'
 };
+
 
 module.exports = TalentRenames;
